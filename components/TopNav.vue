@@ -40,13 +40,18 @@ export default {
         { title: '计算机能力', class: '.detail-ability-title' },
         { title: '自我评价', class: '.detail-evaluate-title' },
         { title: '项目经历', class: '.detail-project-title' },
-        { title: '联系方式', class: '.detail-contact-title' }
+        { title: '联系方式', class: '.detail-contact-title' },
+        { title: 'Beautiful Resume', class: '/' }
       ]
     }
   },
   methods: {
     scrollTo (className) {
-      document.documentElement.scrollTop = document.querySelector(className).offsetTop
+      if (className === '/') {
+        this.$router.push(className)
+      } else {
+        document.documentElement.scrollTop = document.querySelector(className).offsetTop
+      }
     }
   }
 }

@@ -43,18 +43,18 @@ export default {
         ability: [
           '熟练使用Vue.js、Nuxt、Node.js、Element-UI、MongoDB、Docker、Echarts、Jquery、Bootstrap、Mint-UI、IView-UI、Vux-UI、等、了解GitLab CI、Linux、Mui-UI、Mysql等；',
           '并且自主购买配置过阿里云ECS云服务器；熟练使用Git版本控制系统；',
-          'CSDN博客(27万+访问量): https://blog.csdn.net/q95548854；'
+          'CSDN博客36万+访问量): https://blog.csdn.net/q95548854；'
         ],
         evaluate: [
           '3年前端开发经验，开发过微信公众号、中小型管理系统、H5-APP等多种项目，大多独立开发前端，参与过后端开发、产品设计、项目的部署维护。',
           '团队协作能力，带领过新人，做过技术分享；',
           '自我学习能力，除前端技能外，还自学了Docker、Gitlab-CI、MongoDB等；',
-          '自己开发过一些小项目，包括简单的全栈项目；有自己的服务器。有技术博客(27万+访问量)'
+          '自己开发过一些小项目，包括简单的全栈项目；有自己的服务器。有技术博客(36万+访问量)'
         ],
         project: [
           {
             projectName: '上海英业达-测试项目管理系统-内部项目',
-            projectTime: '2019.04 ~ 2020.05',
+            projectTime: '2019.04 ~ 2021.02',
             projectEnvironment: `Vue + Nuxt + Element-UI + Echarts + Node + Mongo
             <br>Git版本控制；GitLab CI 持续集成；
             <br>正式机 Kubernetes 快速部署；测试机Docker 部署。
@@ -65,11 +65,19 @@ export default {
             `
           },
           {
-            projectName: '上海英业达-Peer Review & RMS 系统-内部项目',
-            projectTime: '2019.04 ~ 2020.05',
+            projectName: '上海英业达- Peer Review 互评系统-内部项目',
+            projectTime: '2019.04 ~ 2021.02',
             projectEnvironment: 'Vue + Nuxt + Element-UI + Echarts + Node + Mongo',
             projectDetail: `英业达内部员工互评系统和内部资源管理系统。
             <br>互评系统包含互评模块及互评结果图表分析模块；
+            <br>独立开发前端，参与后端开发、产品设计、发布部署。
+            `
+          },
+          {
+            projectName: '上海英业达- RMS & Ticket (物料管理 & 需求开票)系统-内部项目',
+            projectTime: '2019.04 ~ 2021.02',
+            projectEnvironment: 'Vue + Nuxt + Element-UI + Echarts + Node + Mongo',
+            projectDetail: `英业达内部员工互评系统和内部资源管理系统。
             <br>RMS 系统包含物料、供应商、分类管理。
             <br>独立开发前端，参与后端开发、产品设计、发布部署。
             `

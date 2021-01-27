@@ -46,7 +46,7 @@ export default {
           isLink: true,
           label: '技术博客',
           link: 'https://blog.csdn.net/q95548854',
-          value: '（27万+访问量）'
+          value: '（36万+访问量）'
         }
       ]
     }

@@ -4,7 +4,7 @@ export default {
       workHistory: [
         {
           company: '上海英业达科技有限公司',
-          time: '2019.04 ~ 至今',
+          time: '2019.04 ~ 2021.02',
           position: '前端开发'
         },
         {

@@ -32,6 +32,7 @@ export default {
         { name: 'Vux-UI', level: 3 },
         { name: 'Gitlab CI/CD', level: 4 },
         { name: 'Mui-UI', level: 4 },
+        { name: 'Uni-app', level: 4 },
         { name: 'Linux', level: 4 },
         { name: 'Mysql', level: 4 }
       ]

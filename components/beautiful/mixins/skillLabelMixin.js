@@ -17,6 +17,7 @@ export default {
         { name: 'CSS+HTML', level: 1 },
         { name: 'JS', level: 2 },
         { name: 'Vue', level: 2 },
+        { name: 'TS', level: 2 },
         { name: 'Node', level: 2 },
         { name: 'NUXT', level: 2 },
         { name: 'Element-UI', level: 2 },

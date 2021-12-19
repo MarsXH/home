@@ -10,20 +10,25 @@ export default {
           require('@/assets/img/photo4.jpg'),
           require('@/assets/img/photo5.jpg')
         ],
-        title: '前端开发工程师-3年-张兴华-MarsXH.Chang-本科',
+        title: '前端开发工程师-4年-张兴华-MarsXH.Chang-本科',
         priceTitle: '此商品活动中，请尽快购买！',
         oldPrice: '99999.00',
         newPrice: '????0.00',
         newPriceComment: '就是你想的那个价格！！！',
         nowAdress: '上海',
         baseAdress: '黑龙江',
-        skills: ['Vue', 'Node', 'MongoDB', 'Docker', 'Echarts', '装不下了...'],
+        skills: ['Vue', 'Node', 'TS', 'Docker', 'Echarts', '装不下了...'],
         stock: '1',
         serviceTags: ['正品保证', '极速送货', '永久免费咨询服务'],
         workHistory: [
           {
+            company: '叮咚买菜',
+            time: '2021.04 ~ 2021.12',
+            position: '前端开发'
+          },
+          {
             company: '上海英业达科技有限公司',
-            time: '2019.04 ~ 2021.02',
+            time: '2019.04 ~ 2021.04',
             position: '前端开发'
           },
           {

@@ -37,7 +37,7 @@ export default {
       topNavBar: [
         { title: '基本信息', class: '.base-info-warpper' },
         { title: '商品详情', class: '.detail-detail-title' },
-        { title: '计算机能力', class: '.detail-ability-title' },
+        // { title: '计算机能力', class: '.detail-ability-title' },
         { title: '自我评价', class: '.detail-evaluate-title' },
         { title: '项目经历', class: '.detail-project-title' },
         { title: '联系方式', class: '.detail-contact-title' },

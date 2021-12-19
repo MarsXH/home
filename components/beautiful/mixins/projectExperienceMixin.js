@@ -3,11 +3,42 @@ export default {
     return {
       project: [
         {
+          projectName: '叮咚买菜-额外产出',
+          projectTime: '2021.04 ~ 2021.12',
+          projectEnvironment: '',
+          projectDetail: `
+          <b>1. 主动技术分享（Docker 入门与实践）： </b>
+          <br>详细的 PPT 以及多个实践例子，取得了良好的反响。并在团队内推行技术分享氛围，与团队一起成长。 
+          <br><b>2. 主动提出并推动落地团队内前端工程化/标准化： </b>
+          <br>为了解决团队内开发不标准化而导致的交叉维护成本很高、项目底层代码偶发问题(如请求封装、SSO 接入)等 痛点。以及 Utils、Style 等重复封装等问题。 
+          <br><b>主要产物： </b>
+          <br><b>（1）@wind/Element-pro NPM 包：Element 补充公共组件，仿 Element 架构，命令行创建组件/文档/调试。 </b>
+          <br><b>（2）@wind/Utils NPM 包：封装常用工具函数库，以及公共 Style 库。 </b>
+          <br><b>（3）template-admin-vue：规范统一封装 Vuex/Router/Env Config/Axios/SSO/埋点/菜单布局等底层功能。 </b>
+          <br><b>3. 完成公司 NPM 仓库升级和后续维护。</b>
+          `
+        },
+        {
+          projectName: '叮咚买菜-工作产出',
+          projectTime: '2021.04 ~ 2021.12',
+          projectEnvironment: '',
+          projectDetail: `
+          <b>1. SSO 单点登录系统：Vue 2.6 + TS + Element-UI。 </b>
+          <br>独立支撑接手后的所有迭代。为公司所有系统提供单点登录能力，系统菜单、用户、用户组、角色等权限设置。 
+          <br><b>2. 风控规则引擎&风控运营平台：Vue 2.6 + TS + Element-UI。 </b>
+          <br>独立支撑从 0 到 1 两个项目所有迭代。通过配置多种规则逻辑及处置方式等，实现风险可追踪、可防控。 
+          <br><b>3. 机会洞察-新品引入：Vue 2.6 + TS + Element-UI。 </b>
+          <br>独立支撑从 0 到 1 所有迭代，辅助采购完成选品&商品分析&商品录入&新品判断筛选等操作。 
+          <br><b>4. 监控平台：Vue 3 + TS + Antd-vue-UI。 </b>
+          <br>独立支撑接手后的所有迭代。中间件部门所有 service 的报警监控。 
+          <br><b>5. 其他项目个别迭代临时支持等。</b>
+          `
+        },
+        {
           projectName: '上海英业达-测试项目管理系统-内部项目',
           projectTime: '2019.04 ~ 2021.02',
           projectEnvironment: `Vue + Nuxt + Element-UI + Echarts + Node + Mongo
-          <br>Git版本控制；GitLab CI 持续集成；
-          <br>正式机 Kubernetes 快速部署；测试机Docker 部署。
+          <br>GitLab CI 持续集成，生产环境（Kubernetes）、测试环境（Docker）自动化部署。
           `,
           projectDetail: `英业达内部测试项目全流程管理系统，包含10+个大模块（Dashboard总览、审批、多种资源管理、人力统计管理、项目管理、10+种Echarts图表统计等等。）
           <br>独立开发前端，参与后端开发、产品设计、发布部署。

@@ -11,7 +11,7 @@
         <span v-html="item.value">{{ item.value }}</span>
       </p>
     </div>
-    <p class="detail-ability-title detail-title">计算机能力</p>
+    <!-- <p class="detail-ability-title detail-title">计算机能力</p>
     <div class="detail-content">
       <p
         v-for="(item, itemIndex) in detail.ability"
@@ -21,7 +21,7 @@
         <i class="el-icon-star-on detail-star"></i>
         <span>{{ item }}</span>
       </p>
-    </div>
+    </div> -->
     <p class="detail-evaluate-title detail-title">自我评价</p>
     <div class="detail-content">
       <p
@@ -41,8 +41,8 @@
         class="detail-project-item"
       >
         <p class="d-flex mb-2"><span class="detail-content-label">项目名称：</span>{{ item.projectName }}</p>
-        <p class="d-flex mb-2"><span class="detail-content-label">项目时间：</span>{{ item.projectTime }}</p>
-        <p class="d-flex mb-2"><span class="detail-content-label">项目环境：</span><span v-html="item.projectEnvironment"></span></p>
+        <p v-if="item.projectTime" class="d-flex mb-2"><span class="detail-content-label">项目时间：</span>{{ item.projectTime }}</p>
+        <p v-if="item.projectTime" class="d-flex mb-2"><span class="detail-content-label">项目环境：</span><span v-html="item.projectEnvironment"></span></p>
         <p class="d-flex mb-2"><span class="detail-content-label">项目描述：</span><span v-html="item.projectDetail"></span></p>
         <el-divider v-if="itemIndex < detail.project.length - 1"></el-divider>
       </div>

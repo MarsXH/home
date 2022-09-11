@@ -27,15 +27,17 @@ export default {
         { name: 'Bootstrap', level: 2 },
         { name: 'Git', level: 2 },
         { name: 'Docker', level: 2 },
+        { name: 'React', level: 3 },
+        { name: 'Ant Design', level: 3 },
         { name: 'MongoDB', level: 3 },
+        { name: 'Mysql', level: 3 },
         { name: 'HighCharts', level: 3 },
         { name: 'Mint-UI', level: 3 },
         { name: 'Vux-UI', level: 3 },
         { name: 'Gitlab CI/CD', level: 4 },
         { name: 'Mui-UI', level: 4 },
         { name: 'Uni-app', level: 4 },
-        { name: 'Linux', level: 4 },
-        { name: 'Mysql', level: 4 }
+        { name: 'Linux', level: 4 }
       ]
     }
   }

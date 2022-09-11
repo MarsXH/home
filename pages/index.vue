@@ -67,14 +67,14 @@ export default {
           tabStyle: { transform: 'rotate(288deg) translateX(0px) scale(1)' },
           tabTextStyle: { transform: 'rotate(-288deg)' },
           rotate: 288
-        },
-        {
-          name: 'Simple<br>Resume',
-          route: '/simple',
-          tabStyle: { transform: 'rotate(288deg) translateX(0px) scale(1)' },
-          tabTextStyle: { transform: 'rotate(-288deg)' },
-          rotate: 288
         }
+        // {
+        //   name: 'Simple<br>Resume',
+        //   route: '/simple',
+        //   tabStyle: { transform: 'rotate(288deg) translateX(0px) scale(1)' },
+        //   tabTextStyle: { transform: 'rotate(-288deg)' },
+        //   rotate: 288
+        // }
       ]
     }
   },

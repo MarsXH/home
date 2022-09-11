@@ -16,7 +16,7 @@ export default {
         },
         {
           label: '工作经验',
-          value: '4年（干劲十足~）'
+          value: '4年+（干劲十足~）'
         },
         {
           label: '籍贯',
@@ -32,7 +32,7 @@ export default {
         },
         {
           label: '技能证书',
-          value: '叮咚买菜季度优秀员工（产能突出、提出推动前端标准化开发落地）、英业达年度优秀员工（身兼数职、从 0 到 1 推动公司数字化转型落地）、大学英语四级、大学优秀毕业生'
+          value: '叮咚买菜季度优秀员工、英业达年度优秀员工、大学英语四级、大学优秀毕业生'
         },
         {
           label: '电话',
@@ -45,8 +45,8 @@ export default {
         {
           isLink: true,
           label: '技术博客',
-          link: 'https://blog.csdn.net/q95548854',
-          value: '（50万访问量）'
+          link: 'https://marsxh.blog.csdn.net/',
+          value: '（61万+访问量）'
         }
       ]
     }

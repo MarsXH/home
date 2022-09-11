@@ -4,34 +4,41 @@ export default {
       project: [
         {
           projectName: '叮咚买菜-额外产出',
-          projectTime: '2021.04 ~ 2021.12',
+          projectTime: '2021.04 ~ 至今',
           projectEnvironment: '',
           projectDetail: `
-          <b>1. 主动技术分享（Docker 入门与实践）： </b>
+          <b>1. 主动技术分享-大前端部门级（Docker 入门与实践、Decorator装饰器）：</b>
           <br>详细的 PPT 以及多个实践例子，取得了良好的反响。并在团队内推行技术分享氛围，与团队一起成长。 
           <br><b>2. 主动提出并推动落地团队内前端工程化/标准化： </b>
-          <br>为了解决团队内开发不标准化而导致的交叉维护成本很高、项目底层代码偶发问题(如请求封装、SSO 接入)等 痛点。以及 Utils、Style 等重复封装等问题。 
-          <br><b>主要产物： </b>
-          <br><b>（1）@wind/Element-pro NPM 包：Element 补充公共组件，仿 Element 架构，命令行创建组件/文档/调试。 </b>
-          <br><b>（2）@wind/Utils NPM 包：封装常用工具函数库，以及公共 Style 库。 </b>
-          <br><b>（3）template-admin-vue：规范统一封装 Vuex/Router/Env Config/Axios/SSO/埋点/菜单布局等底层功能。 </b>
+          <br>为了解决团队内开发不标准化而导致的交叉维护成本很高、项目底层代码偶发问题(如请求封装、SSO接入)等痛点。以及 Comonents、Utils、Style 等重复封装等问题。
+          <br><b>主要产物（@wind系列NPM包）</b>
+          <br><b>（1）Element-pro：Element 补充公共组件，仿 Element 架构，命令行创建组件/文档/调试。 </b>
+          <br><b>（2）wind-Utils：封装常用工具函数库，按需打包功能，以及公共 Style 库。 </b>
+          <br><b>（3）wind-admin-template：规范统一封装Vuex/Router/Env/Axios/SSO/UBA/Layout/Menu/水印等功能。 </b>
+          <br><b>（4）wind-cli：CLI 命令生成 wind-admin-template 模板项目。 </b>
+          <br><b>（5）wind-ui（还在初期阶段）。</b>
           <br><b>3. 完成公司 NPM 仓库升级和后续维护。</b>
+          <br><b>4. 流量染色小工具SDK</b>
+          <br>（1）For 测试人员：可以给每条请求增加请求头，达到链路追踪目的。
+          <br>（2）For 开发人员：可以给请求增加任意Cookie。（可通过Cookie值切换不同项目环境）
+          <br><b>5. 多租户切换小工具SDK</b>
+          <br>配合SSO多租户需求，统一封装租户切换组件，在业务系统中实现切换租户功能。
+          <br><b>6. SSO单点登录桌面端应用</b>
+          <br>采用 Electron 开发。For前置仓工作人员，登录桌面端应用即可保持SSO登录态。
           `
         },
         {
           projectName: '叮咚买菜-工作产出',
-          projectTime: '2021.04 ~ 2021.12',
+          projectTime: '2021.04 ~ 至今',
           projectEnvironment: '',
           projectDetail: `
-          <b>1. SSO 单点登录系统：Vue 2.6 + TS + Element-UI。 </b>
-          <br>独立支撑接手后的所有迭代。为公司所有系统提供单点登录能力，系统菜单、用户、用户组、角色等权限设置。 
-          <br><b>2. 风控规则引擎&风控运营平台：Vue 2.6 + TS + Element-UI。 </b>
-          <br>独立支撑从 0 到 1 两个项目所有迭代。通过配置多种规则逻辑及处置方式等，实现风险可追踪、可防控。 
-          <br><b>3. 机会洞察-新品引入：Vue 2.6 + TS + Element-UI。 </b>
-          <br>独立支撑从 0 到 1 所有迭代，辅助采购完成选品&商品分析&商品录入&新品判断筛选等操作。 
-          <br><b>4. 监控平台：Vue 3 + TS + Antd-vue-UI。 </b>
-          <br>独立支撑接手后的所有迭代。中间件部门所有 service 的报警监控。 
-          <br><b>5. 其他项目个别迭代临时支持等。</b>
+          <b>1. SSO单点登录/权限管理系统（Vue2 + TS + Element-UI）： </b>
+          <br>独立支撑所有迭代。为公司所有系统提供单点登录、多租户、系统菜单、应用、用户、角色、权限设置。
+          <br><b>2. 埋点管理系统（Vue + TS + Node全栈）：</b>
+          <br>独立支撑接手后所有迭代。统一管理IOS、Android、H5、小程序所使用的的埋点全流程，包括埋点事件的设计、审批、开发、测试、发布、上报、下发等。
+          <br><b>3. FAAS前端发布系统（React + Ant-design）： </b>
+          <br>配合云原生团队开发的一套专为前端项目发布使用的系统，取代之前老发布模式，实现更方便快捷稳定的持续集成部署。
+          <br><b>4. 独立支撑风控规则引擎、风控运营平台、选品系统等其他项目日常迭代。 </b>
           `
         },
         {
